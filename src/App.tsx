@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-var ws = new WebSocket("ws://localhost:8000/gateway")
+var ws = new WebSocket("ws://golang-websocket-chat.herokuapp.com/gateway")
 
 ws.addEventListener("open", () => {
     console.log('hi')
